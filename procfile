@@ -1,1 +1,0 @@
-web: gunicorn auto-corrector:app
