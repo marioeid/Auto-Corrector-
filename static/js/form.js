@@ -39,7 +39,6 @@ $('form').on('submit', function (event) {
     crossdomain:true,
     success: function (data) {
       // Process on success
-      // console.log(data);
        var list = "";
         for(i=0; i<data[0].length; i++){
         list +="<li class='list-group-item d-flex justify-content-center'>"+data[0][i]+"</li>";
