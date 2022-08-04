@@ -34,7 +34,7 @@ $('form').on('submit', function (event) {
   var text=$("#autocorrector").val()
   $.ajax({
     type: 'GET',
-    url: 'http://127.0.0.1:5000//prediction1/'+text,
+    url: '/prediction1/'+text,
     datatype:'json',
     crossdomain:true,
     success: function (data) {
